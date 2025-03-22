@@ -50,10 +50,25 @@ tgt_batch_size = 8
 # the seeds were generated randomly using the next line
 #seeds=random.sample(range(1, 100), 10)
 
-seeds = [700]
+#single seed
+random_seed=700
+#multiple seeds
+#seeds = [700]
 
-#5- translation: is a variable used to select random testing periods
+#5- translation: is a variable used to maintain randomness in the selected time periods
+# check the file readme.md for more details about the chosen translation for each experiment
 translation=2
+
+
+#6- set the historical length T and the future horizon H
+
+src_lookback = 24*7
+src_horizon = 24*1
+
+tgt_lookback = 24*7
+tgt_horizon = 24*1
+
+
 
 #upload weather data
 # cloud coverage and precipdepth1&6hr were eliminated because they are empty (NAN)
@@ -81,13 +96,7 @@ tgt_data = pd.merge(
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 
-# set the historical length T and the future horizon H
 
-src_lookback = 24*7
-src_horizon = 24*1
-
-tgt_lookback = 24*7
-tgt_horizon = 24*1
 
 
 # prepare the features: the electricity load lags + weather lags + current weather + current calendar
@@ -242,7 +251,6 @@ rmses = []
 mapes = []
 r2scores = []
 i = 0
-random_seed=700
 models=['modif_tf','cnn_lstm','tf']
 
 hidden_dim = 64
