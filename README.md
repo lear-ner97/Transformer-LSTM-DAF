@@ -44,3 +44,20 @@ if target_data=="Antonina":
     *weeks=20: translation=1
     *weeks=10: translation=5
     *weeks=5: translation=2
+
+## 📖 Citation
+
+If you use this code or find our work helpful, please consider citing:
+
+```bibtex
+@article{article,
+author = {Brahim, Sami and Amayri, Manar and Bouguila, Nizar},
+year = {2025},
+month = {04},
+pages = {},
+title = {One-day-ahead electricity load forecasting of non-residential buildings using a modified Transformer-BiLSTM adversarial domain adaptation forecaster},
+volume = {13},
+journal = {International Journal of Dynamics and Control},
+doi = {10.1007/s40435-025-01701-x}
+}
+
