@@ -3,7 +3,7 @@
 Published in *International Journal of Dynamics and Control, 2025*
 
 
-## step-by-step guideline to reproduce the results
+## step-by-step guidelines to reproduce the results
 
 ## install dependencies
 put all the github repo in a single folder and install the packages listed in the main file, lines 7-25
