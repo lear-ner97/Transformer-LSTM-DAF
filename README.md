@@ -64,3 +64,6 @@ journal = {International Journal of Dynamics and Control},
 doi = {10.1007/s40435-025-01701-x}
 }
 
+## 📬 Contact
+If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues) or contact us at **sami.benbrahim@mail.concordia.ca**.
+
