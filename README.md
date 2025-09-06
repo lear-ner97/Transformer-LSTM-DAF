@@ -48,6 +48,9 @@ The expected output:
 2- training & testing metrics at the end of the training
 3- plot of the actual data vs predictions
 
+## 📬 Contact
+If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues) or contact us at **sami.benbrahim@mail.concordia.ca**.
+
 ## 📖 Citation
 
 If you use this code or find our work helpful, please consider citing:
@@ -63,8 +66,3 @@ volume = {13},
 journal = {International Journal of Dynamics and Control},
 doi = {10.1007/s40435-025-01701-x}
 }
-
----
-## 📬 Contact
-If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues) or contact us at **sami.benbrahim@mail.concordia.ca**.
-
