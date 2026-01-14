@@ -45,7 +45,7 @@ if target_data=="Antonina":<br>
 run main.py.  <br>    The expected output:   <br> 1- training & validation metrics per epoch  <br>  2- training & testing metrics at the end of the training   <br>   3- plot of the actual data vs predictions
 
 ## 📬 Contact
-If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues) or contact us at **sami.benbrahim@mail.concordia.ca**.
+If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues).
 
 ## 📖 Citation
 
