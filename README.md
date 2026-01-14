@@ -47,4 +47,21 @@ run main.py.  <br>    The expected output:   <br> 1- training & validation metri
 ## 📬 Contact
 If you have questions or encounter issues, please [open an issue](https://github.com/lear-ner97/Transformer-LSTM-DAF/issues).
 
+## 📖 Citation
+
+If you use this code or find our work helpful, please consider citing:
+
+```bibtex
+@article{article,
+author = {Brahim, Sami and Amayri, Manar and Bouguila, Nizar},
+year = {2025},
+month = {04},
+pages = {},
+title = {One-day-ahead electricity load forecasting of non-residential buildings using a modified Transformer-BiLSTM adversarial domain adaptation forecaster},
+volume = {13},
+journal = {International Journal of Dynamics and Control},
+doi = {10.1007/s40435-025-01701-x}
+}
+
+
 
